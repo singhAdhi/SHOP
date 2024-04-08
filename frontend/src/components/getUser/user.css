@@ -1,0 +1,28 @@
+.userTable {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addButton {
+    text-decoration: none;
+    background-color: purple;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.userTable Table {
+    width: 100%;
+    margin: 30px;
+    border-color: collapse;
+}
+
+.userTable Table thead th {
+    background-color: darkblue;
+    color: #fff;
+    padding: 10px;
+}

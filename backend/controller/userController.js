@@ -7,7 +7,7 @@ export const create = async (req, res) => {
       return res.status(404).json({ msg: "User data not found" });
     }
     const savedData = await userData.save();
-    res.status(200).json(savedData);
+    res.status(200).json({ savedData, msg: "User data created" });
   } catch (error) {
     res.status(500).json({ error: error });
   }
